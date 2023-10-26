@@ -1,0 +1,119 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    /* background: url("background.jpg"); */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: url("background.jpg"); */
+    padding: 20px;
+}
+.upperpage{
+    background: url("background.jpg");
+}
+.header img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    /* text-decoration: underline; */
+    color: white;
+    font-weight: bold;
+}
+.main-content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.animated-button {
+    background: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Add a smooth background color transition */
+}
+
+.animated-button:hover {
+    background: #af0202;
+    font-weight: bold;
+}
+
+.image-scroll {
+    padding: 50px 0;
+    background-color: #111;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.image-slider {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.image-slider img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    background: #111;
+    padding: 20px 0;
+}
+.space-line {
+    background-color: #fbf7f7;
+    width: 100%;
+    width: 5px;
+}
+.faq-section{
+    color: #fff;
+    background-color: #111;
+}
+.faq-button{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #111;
+}
+.btn{
+    width: 1020px;
+    height: 50px;
+    font-size: 22px;
+    text-align: left;
+    background-color: rgb(54, 53, 53);
+    color: #fff;
+    border-radius: 1px;
+}
+.btn:hover{
+    background-color: #656565;
+}
